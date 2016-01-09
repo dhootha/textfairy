@@ -1,6 +1,0 @@
-[submodule "ViewPager3D"]
-	path = ViewPager3D
-	url = git@github.com:dhootha/ViewPager3D.git
-[submodule "tess-two"]
-	path = tess-two
-	url = git@github.com:dhootha/tess-two.git
