@@ -11,7 +11,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
 task ndkBuild(type: Exec,description: 'run ndk-build') {
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         workingDir 'src/main/jni'
-        commandLine 'ndk-build.cmd', '-j', Runtime.runtime.availableProcessors()
+        commandLine "$ndkDir/ndk-build.cmd", '-j', Runtime.runtime.availableProcessors()
 
     } else {
         workingDir 'src/main/jni'
